@@ -1,70 +1,94 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📋 Personal Productivity App
 
-## Available Scripts
+> **Offline Task Manager + Calendar + Dashboard + Voice Assistant — All without Cloud Sync!**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧠 Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A modern, offline-first **Personal Productivity Web App** designed for a **single user on a single device**.  
+Manage daily tasks, visualize schedules with a built-in calendar, track productivity trends with dynamic dashboards, and control everything — without internet or login!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Task Management**  
+  ➔ Add, edit (inline), delete, and mark tasks as complete.  
+  ➔ Assign due dates and track overdue tasks.  
+  ➔ Filter tasks (Pending / Completed / Overdue / All) and search easily.
 
-### `npm run build`
+- **Calendar Integration**  
+  ➔ Built-in monthly calendar (FullCalendar React).  
+  ➔ Add tasks by clicking dates.  
+  ➔ Color-coded tasks: Green (Completed), Red (Pending).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Dashboard Analytics**  
+  ➔ **Pie Chart** for Completed vs Pending tasks.  
+  ➔ **Bar Chart** showing Daily task completions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Voice Command Integration**  
+  ➔ Add, complete, and delete tasks using **Voice Assistant** (Web Speech API).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Menu & Settings**  
+  ➔ Light/Dark mode toggle.  
+  ➔ Background style switcher (soft gradients).  
+  ➔ Export tasks to `.json` file.  
+  ➔ Import tasks from backup file.  
+  ➔ View Local Storage usage.  
+  ➔ Dynamically change app title.  
+  ➔ Full Factory Reset option.
 
-### `npm run eject`
+- **Offline-Ready (PWA Principles)**  
+  ➔ Works fully without internet after first load.  
+  ➔ No user authentication — your data stays 100% private inside your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React.js**
+- **React Router DOM**
+- **FullCalendar React**
+- **Chart.js** (via react-chartjs-2)
+- **LocalStorage API**
+- **Web Speech API** (Voice Recognition)
+- **Blob & FileReader APIs**
+- **Progressive Web App Architecture**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📦 Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/YOUR-USERNAME/personal-productivity-app.git
+cd personal-productivity-app
+npm install
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+✅ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ✨ Demo Screenshots
 
-### Analyzing the Bundle Size
+| Home Page | Calendar View | Dashboard |
+|:---:|:---:|:---:|
+| *(Add Screenshot)* | *(Add Screenshot)* | *(Add Screenshot)* |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*(You can add screenshots later easily.)*
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📜 License
 
-### Advanced Configuration
+This project is open-source for educational and personal use.  
+Built with ❤️ by Jaswanth.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+# 🚀 Done!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
