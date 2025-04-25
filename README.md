@@ -78,8 +78,6 @@ npm start
 |:---:|:---:|:---:|:---:|
 | <img src="assets/homepage.png" alt="Home Page" width="250"/> | <img src="assets/calender page.png" alt="Calendar View" width="250"/> | <img src="assets/dashboard.png" alt="Dashboard" width="250"/> | <img src="assets/task page.png" alt="Task Page" width="250"/> |
 
-*(You can add screenshots later easily.)*
-
 ---
 
 ## 📜 License
