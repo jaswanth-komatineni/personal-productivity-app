@@ -43,6 +43,20 @@ Manage daily tasks, visualize schedules with a built-in calendar, track producti
 - **Offline-Ready (PWA Principles)**  
   ➔ Works fully without internet after first load.  
   ➔ No user authentication — your data stays 100% private inside your browser.
+  
+  ---
+
+## Voice Command Examples
+
+-  ➕ "add task call my friend"
+
+-  ✅ "mark task 2"
+
+-  ❌ "delete task 4"
+
+-  🎯 "show completed tasks"
+
+-  🧹 "clear all tasks"
 
 ---
 
